@@ -236,4 +236,22 @@ object {
 }
 body {
   text-align: left;
+  padding-top: 28px;
+}
+header.site-header {
+  border-top-color: #17dcc4;
+}
+.sub-header {
+  background: #ccc;
+  height: 100px;
+}
+article.post,
+#secondary {
+  border-top: 4px solid #17dcc4;
+}
+#secondary {
+  padding-top: 30px;
+}
+#secondary h1.widget-title {
+  font-size: 20px;
 }

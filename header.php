@@ -21,18 +21,29 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+	
+	<header class="site-header site-header-secondary show-header">
+		<div class="container">
+			<nav class="nav-left">
+				<a href="<?php echo home_url() ?>">Blog</a>
+				<a href="http://democracyos.org/#about">About</a>
+				<a href="http://kickstarter.com" class="kickstarter">
+				<img src="http://democracyos.github.com/website/img/logo-kickstarter.png"></a>
+			</nav>
+			<h1 class="logo">
+				<a href="http://democracyos.org"><img src="http://democracyos.github.com/website/img/logo.png"><span>DemocracyOS</span></a>
+			</h1>
+
+			<nav class="nav-right">
+				<a href="http://democracyos.org/#profiles">Profiles</a>
+				<a href="http://democracyos.org/#faq">FAQ</a>
+				<a href="http://democracyos.org/#contact">Contact</a>
+			</nav>
 		</div>
+	</header>
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<h1 class="menu-toggle"><?php _e( 'Menu', 'democracyos' ); ?></h1>
-			<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'democracyos' ); ?>"><?php _e( 'Skip to content', 'democracyos' ); ?></a></div>
-
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+	<div class="sub-header">
+		
+	</div>
 
 	<div id="content" class="site-content container">
