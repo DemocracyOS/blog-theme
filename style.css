@@ -266,7 +266,8 @@ article.post {
   padding-left: 100px;
   margin-right: 50px;
 }
-article.post a {
+article.post a,
+article.post h1 {
   color: #df408b;
 }
 #secondary {

@@ -25,7 +25,7 @@
 	<header class="site-header site-header-secondary show-header">
 		<div class="container">
 			<nav class="nav-left">
-				<a href="<?php echo home_url() ?>">Blog</a>
+				<a class="current" href="<?php echo home_url() ?>">Blog</a>
 				<a href="http://democracyos.org/#about">About</a>
 				<a href="http://kickstarter.com" class="kickstarter">
 				<img src="http://democracyos.github.com/website/img/logo-kickstarter.png"></a>
