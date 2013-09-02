@@ -5,6 +5,11 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class="share-box">
+		<h4>Share</h4>
+		<a href="http://www.facebook.com/sharer.php?u=<?php echo the_permalink() ?>" class="sb-facebook"><i class="flaticon social facebook"></i></a>
+		<a href="https://twitter.com/intent/tweet?url=<?php echo the_permalink() ?>" class="sb-twitter"><i class="flaticon social twitter"></i></a>
+	</div>
 	<?php 
 	if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 	  the_post_thumbnail();
