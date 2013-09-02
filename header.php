@@ -23,6 +23,7 @@
 	<?php do_action( 'before' ); ?>
 	
 	<header class="site-header site-header-secondary show-header">
+		<div class="triangle"></div>
 		<div class="container">
 			<nav class="nav-left">
 				<a class="current" href="<?php echo home_url() ?>">Blog</a>
@@ -31,16 +32,22 @@
 				<img src="http://democracyos.github.com/website/img/logo-kickstarter.png"></a>
 			</nav>
 			<h1 class="logo">
-				<a href="http://democracyos.org"><img src="http://democracyos.github.com/website/img/logo.png"><span>DemocracyOS</span></a>
+				<a href="http://democracyos.org"><img src="http://democracyos.github.com/website/img/logo.png"><span>Democracy&#9679;OS</span></a>
 			</h1>
 
 			<nav class="nav-right">
 				<a href="http://democracyos.org/#profiles">Profiles</a>
 				<a href="http://democracyos.org/#faq">FAQ</a>
 				<a href="http://democracyos.org/#contact">Contact</a>
+				<a href="http://twitter.com/democracyos" target="_blank" class="twitter-header">
+					<i class="flaticon social twitter"></i>
+				</a>
 			</nav>
 		</div>
 	</header>
+
+
+
 
 	<div class="sub-header">
 		
