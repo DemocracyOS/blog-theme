@@ -274,6 +274,9 @@ article.post .attachment-post-thumbnail {
   max-width: 100%;
   height: auto;
 }
+#disqus_thread {
+  margin: 100px 0;
+}
 #secondary {
   padding-top: 30px;
 }
