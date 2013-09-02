@@ -83,6 +83,13 @@ add_action( 'widgets_init', 'democracyos_widgets_init' );
  * Enqueue scripts and styles
  */
 function democracyos_scripts() {
+
+
+	wp_enqueue_style('bs', "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+	wp_enqueue_style('font', "http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,600");
+	wp_enqueue_style('font-social', "http://democracyos.github.com/website/font/social.css");
+	wp_enqueue_style('site-style', "http://democracyos.github.com/website/main.css");
+
 	wp_enqueue_style( 'democracyos-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'democracyos-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
