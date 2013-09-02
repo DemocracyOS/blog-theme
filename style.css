@@ -238,12 +238,25 @@ body {
   text-align: left;
   padding-top: 28px;
 }
+section {
+  padding: 0;
+}
 header.site-header {
   border-top-color: #17dcc4;
 }
 .sub-header {
   background: #ccc;
   height: 100px;
+}
+h1.page-title {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.page-header {
+  padding: 0;
+  margin: 20px 0;
+  border: 0;
 }
 article.post,
 #secondary {
