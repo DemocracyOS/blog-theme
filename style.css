@@ -270,6 +270,10 @@ article.post a,
 article.post h1 {
   color: #df408b;
 }
+article.post .attachment-post-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
 #secondary {
   padding-top: 30px;
 }
@@ -292,4 +296,11 @@ article.post h1 {
 }
 #secondary ul li a:hover {
   color: #333;
+}
+footer.site-footer {
+  text-align: center;
+}
+footer.site-footer a {
+  color: #999;
+  font-size: 12px;
 }
