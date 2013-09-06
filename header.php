@@ -16,7 +16,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
-<?php echo $url = "http://democracyos.github.io/website/" ?>
+<?php  $url = "http://democracyos.github.io/website/" ?>
 </head>
 
 <body <?php body_class(); ?>>
