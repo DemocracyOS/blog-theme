@@ -16,6 +16,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+<?php echo $url = "http://democracyos.github.io/website/" ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -23,26 +24,28 @@
 	<?php do_action( 'before' ); ?>
 	
 	<header class="site-header site-header-secondary show-header">
-		<div class="triangle"></div>
-		<div class="container">
-			<nav class="nav-left">
-				<a class="current" href="<?php echo home_url() ?>">Blog</a>
-				<a href="http://democracyos.org/#about">About</a>
-				<a href="http://kickstarter.com" class="kickstarter">
-				<img src="http://democracyos.github.com/website/img/logo-kickstarter.png"></a>
-			</nav>
-			<h1 class="logo">
-				<a href="http://democracyos.org"><img src="http://democracyos.github.com/website/img/logo.png"><span>Democracy&#9679;OS</span></a>
-			</h1>
-
-			<nav class="nav-right">
-				<a href="http://democracyos.org/#profiles">Profiles</a>
-				<a href="http://democracyos.org/#faq">FAQ</a>
-				<a href="http://democracyos.org/#contact">Contact</a>
-				<a href="http://twitter.com/democracyos" target="_blank" class="twitter-header">
-					<i class="flaticon social twitter"></i>
-				</a>
-			</nav>
+		<div class="bg-grey">
+			<div class="container">
+				<h1 class="logo">
+					<a href="<?php echo $url ?>"><img src="img/logo.png"><span>Democracy●OS</span></a>
+				</h1>
+				<nav>
+					<div class="nav-left">
+						<a href="http://blog.democracyos.org">Blog</a>
+						<a href="<?php echo $url ?>#about">About</a>
+						<a target="_blank" href="http://kickstarter.com" class="kickstarter"><img src="http://democracyos.github.io/website/img/logo-kickstarter.png"></a>
+					</div>
+					<div class="nav-right">
+						<a href="<?php echo $url ?>#profiles" class="who-we-are">who we are</a>
+						<a href="<?php echo $url ?>#faq">FAQ</a>
+						<a href="<?php echo $url ?>#contact">join us</a>
+						<a target="_blank" href="http://twitter.com/democracyos" class="twitter-header"><i class="flaticon social twitter"></i></a>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="clearfix triangle-container">
+			<div class="triangle"></div>
 		</div>
 	</header>
 
