@@ -49,11 +49,6 @@
 		</div>
 	</header>
 
-
-
-
-	<div class="sub-header">
-		
-	</div>
+	<div class="sub-header"></div>
 
 	<div id="content" class="site-content container">
